@@ -39,11 +39,11 @@ Key Components of the Form
 Day3-notes.Readmd
 
 ## Learned HTML Senantic Tags 
-header
-nav
-section
-artice
-footer
+:header
+:nav
+:section
+:artice
+:footer
 
 ## Build a Static Webpage
 Header ( title + navigation )
