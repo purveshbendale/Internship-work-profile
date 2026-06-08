@@ -35,3 +35,17 @@ Key Components of the Form
 1.  Email Address Field: Acts as the primary identifier for both login and contact tracking (e.g., <input type="email" required>).
 2.  Password Field: Obscures characters for security (e.g., <input type="password">) and often includes a "Show/Hide" toggle to           prevent typos.
 3.  "Remember Me" Checkbox: Keeps the user's session active across browser visits
+
+Day3-notes.Readmd
+
+## Learned HTML Senantic Tags 
+  <header>
+  <nav>
+  <section>
+  <artice>
+  <footer>
+
+## Build a Static Webpage
+Header ( title + navigation )
+Main content section 
+Footer 
