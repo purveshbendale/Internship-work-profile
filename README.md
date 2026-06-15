@@ -16,7 +16,7 @@ I joined this internship to gain experience , learn industry based work
 - Gain experience of working in industry
 - Want to improve my communication skills
 
-Day2-notes.Readmd
+##Day2-notes.Readmd
 
 ## What is MVC
 MVC (Model-View-Controller) is a popular software architectural design pattern that separates an application into three interconnected components: the Model (data), the View (user interface), and the Controller (brain/logic).
@@ -36,7 +36,7 @@ Key Components of the Form
 2.  Password Field: Obscures characters for security (e.g., <input type="password">) and often includes a "Show/Hide" toggle to           prevent typos.
 3.  "Remember Me" Checkbox: Keeps the user's session active across browser visits
 
-Day3-notes.Readmd
+##Day3-notes.Readmd
 
 ## Learned HTML Senantic Tags 
 :header
@@ -50,14 +50,21 @@ Header ( title + navigation )
 Main content section 
 Footer 
 
-Day4-html-css
+Files: INDEX.HTML , STYLE.CSS
 
-Files: Index1.html , style.css
+##Day4-html-css
+
+Files: INDEX2.HTML , STYLE2.CSS
 
   Created a Webpage using html and css 
 
-Day5-Box Model (Spacing and Sizing)
+##Day5-Box Model (Spacing and Sizing)
 
-Files: Index.html , style.css
+Files: INDEX3.HTML , STYLE3.CSS
 
   Complete css Fundamentals
+
+##Day6-js-basics-task
+
+Folder: INDEX4.HTML , SCRIPT.JS
+
