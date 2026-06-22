@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result </title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+
+        .student {
+            border: 1px solid #0f0f0f;
+            padding: 10px;
+            margin: 10px auto;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Result </h1>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="number" id="marks" placeholder="Enter Marks">
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
