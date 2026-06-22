@@ -66,5 +66,13 @@ Files: INDEX3.HTML , STYLE3.CSS
 
 ##Day6-js-basics-task
 
-Folder: INDEX4.HTML , SCRIPT.JS
+Folder: INDEX4.HTML , STYLE4.CSS , SCRIPT.JS
+
+##Day7-js-array-object-task
+
+Folder: INDEX5.HTML , STYLE5.CSS , SCRIPT5.JS
+
+##Day8-js-events-form-task
+
+Folder: INDEX6.HTML , STYLE6.CSS , SCRIPTS.JS
 
