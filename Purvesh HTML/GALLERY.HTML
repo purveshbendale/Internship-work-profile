@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShoeWorld | Gallery</title>
+
+<link rel="stylesheet" href="STYLEPROJECT.CSS">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">👟 ShoeWorld</div>
+
+<nav>
+<ul>
+
+<li><a href="INDEXPROJECT.HTML">Home</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li><a href="wishlist.html">Wishlist</a></li>
+
+<li><a href="cart.html">Cart</a></li>
+
+<li><a href="login.html">Login</a></li>
+
+</ul>
+</nav>
+
+</header>
+
+<section class="gallery-section">
+
+<h1>Our Shoe Collection</h1>
+
+<p class="subtitle">
+Choose your favourite pair.
+</p>
+
+<div class="gallery-grid">
+
+<!-- Product 1 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Nike Air Max",
+price:"₹8,999",
+brand:"Nike",
+description:"Premium running shoes with Air technology.",
+image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500">
+
+<h3>Nike Air Max</h3>
+
+<p>₹8,999</p>
+
+</div>
+
+<!-- Product 2 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Adidas Ultraboost",
+price:"₹9,499",
+brand:"Adidas",
+description:"Comfortable sports shoes.",
+image:"https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500">
+
+<h3>Adidas Ultraboost</h3>
+
+<p>₹9,499</p>
+
+</div>
+
+<!-- Product 3 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Puma RS-X",
+price:"₹7,999",
+brand:"Puma",
+description:"Fashion sneakers.",
+image:"https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500">
+
+<h3>Puma RS-X</h3>
+
+<p>₹7,999</p>
+
+</div>
+
+<!-- Product 4 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Nike Jordan",
+price:"₹12,999",
+brand:"Nike",
+description:"Basketball shoes.",
+image:"https://images.unsplash.com/photo-1511556820780-d912e42b4980?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?w=500">
+
+<h3>Nike Jordan</h3>
+
+<p>₹12,999</p>
+
+</div>
+
+<!-- Product 5 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Converse All Star",
+price:"₹5,999",
+brand:"Converse",
+description:"Classic sneakers.",
+image:"https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500">
+
+<h3>Converse</h3>
+
+<p>₹5,999</p>
+
+</div>
+
+<!-- Product 6 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Reebok Zig",
+price:"₹6,999",
+brand:"Reebok",
+description:"Training shoes.",
+image:"https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500">
+
+<h3>Reebok Zig</h3>
+
+<p>₹6,999</p>
+
+</div>
+
+<!-- Product 7 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"Asics Gel",
+price:"₹8,299",
+brand:"Asics",
+description:"Running shoes.",
+image:"https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500">
+
+<h3>Asics Gel</h3>
+
+<p>₹8,299</p>
+
+</div>
+
+<!-- Product 8 -->
+
+<div class="gallery-item" onclick='showProductDetails({
+title:"New Balance 574",
+price:"₹7,499",
+brand:"New Balance",
+description:"Lifestyle sneakers.",
+image:"https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500"
+})'>
+
+<img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500">
+
+<h3>New Balance</h3>
+
+<p>₹7,499</p>
+
+</div>
+
+<!-- Product 9 -->
+
+<div class="gallery-item">
+
+<img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500">
+
+<h3>Skechers Go Walk</h3>
+
+<p>₹5,499</p>
+
+</div>
+
+<!-- Product 110-->
+
+<div class="gallery-item">
+
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500">
+
+<h3>Red Tape Shoes</h3>
+
+<p>₹4,999</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>ShoeWorld</p>
+
+</footer>
+
+<script src="SCRIPTPROJECT.JS"></script>
+
+</body>
+</html>
